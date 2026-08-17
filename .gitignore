@@ -1,0 +1,84 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+.cmake/
+out/
+
+# IDE
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# Local dependencies and tools
+.deps/
+.tools/
+*.zip
+
+# Temporary files
+tmp/
+assets/savegame.bin
+assets/savegame.tmp
+assets/scores.txt
+
+# Local generated documentation
+docs/*.docx
+
+# Only track runtime assets used by the current game. Keep the remaining
+# source-art collection locally without publishing it in this repository.
+assets/fonts/*
+!assets/fonts/Lovelo-LineBold.ttf
+
+assets/images/*
+!assets/images/background_1.png
+!assets/images/dragons.png
+!assets/images/enemy_laser.png
+!assets/images/explosion.png
+!assets/images/fire.png
+!assets/images/IconShip1_red.png
+!assets/images/IconShip2_green.png
+!assets/images/IconShip3_orange.png
+!assets/images/Invaders.png
+!assets/images/monster.png
+!assets/images/playerShip1_red.png
+!assets/images/playerShip2_green.png
+!assets/images/playerShip3_orange.png
+!assets/images/Start_Menu.png
+!assets/images/PNG/
+
+assets/images/PNG/*
+!assets/images/PNG/Lasers/
+!assets/images/PNG/Meteors/
+!assets/images/PNG/Power-ups/
+
+assets/images/PNG/Lasers/*
+!assets/images/PNG/Lasers/laserBlue01.png
+
+assets/images/PNG/Meteors/*
+!assets/images/PNG/Meteors/meteorBrown_big1.png
+!assets/images/PNG/Meteors/meteorBrown_med1.png
+!assets/images/PNG/Meteors/meteorGrey_big1.png
+!assets/images/PNG/Meteors/meteorGrey_med1.png
+
+assets/images/PNG/Power-ups/*
+!assets/images/PNG/Power-ups/powerupGreen_bolt.png
+!assets/images/PNG/Power-ups/star_gold.png
+!assets/images/PNG/Power-ups/things_silver.png
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# macOS
+.DS_Store
+
+# Executables
+*.exe
+*.out
+*.app
